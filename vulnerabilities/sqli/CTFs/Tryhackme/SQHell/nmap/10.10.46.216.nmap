@@ -1,0 +1,17 @@
+# Nmap 7.94 scan initiated Tue Nov  7 10:14:42 2023 as: nmap -p22,80 -sV -sC -Pn -T4 -oA 10.10.46.216 10.10.46.216
+Nmap scan report for 10.10.46.216
+Host is up (0.16s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 d3:27:57:52:52:b4:96:b9:a0:6d:be:78:70:0c:1f:80 (RSA)
+|   256 fd:62:35:7b:db:46:5b:12:54:f1:a3:ce:42:d0:3a:6c (ECDSA)
+|_  256 8a:88:81:99:f1:0b:7b:c4:96:90:a6:40:c1:fe:cd:3e (ED25519)
+80/tcp open  http    nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Home
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov  7 10:14:54 2023 -- 1 IP address (1 host up) scanned in 11.98 seconds

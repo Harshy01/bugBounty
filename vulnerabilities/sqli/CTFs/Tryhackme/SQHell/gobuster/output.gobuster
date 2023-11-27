@@ -1,0 +1,25 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.46.216
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/register             (Status: 200) [Size: 2593]
+[2K/login                (Status: 200) [Size: 1763]
+[2K/post                 (Status: 200) [Size: 21]
+[2K/user                 (Status: 200) [Size: 21]
+[2K/terms-and-conditions (Status: 200) [Size: 1778]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+Finished
+===============================================================
